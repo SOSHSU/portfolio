@@ -53,11 +53,11 @@ a{
 }
 .item1{
     background-color: orange;
-    grid-area: item1;   
+    grid-area: item1;
 }
 .item2{
     background-color: goldenrod;
-    grid-area: item2;   
+    grid-area: item2;
 }
 .item3{
     background-color: bisque;
@@ -71,33 +71,41 @@ a{
     justify-content: space-between;
     flex-wrap: wrap;
     width:100%;
-    height: 700px;
+    /* height: 700px; */
     color: white;
 }
 .button-container > h2{
     color: black;
+    text-align: center;
+    margin: 0px auto 0px auto;
+    padding: 20px;
+    background-color: pink;
 }
 .button1{
     background-color: brown;
     text-align: center;
     width: 100%;
     height: 100px;
+    margin: 0px 10px;
 }
 .button2{
-    width: 50%;
+    width: 48.9%;
     background-color: brown;
     text-align: center;
     height: 200px;
+    margin: 0px 5px 0px 10px;
 }
 .button3{
     text-align: center;
-    width: 50%;
+    width: 48.9%;
     background-color: red;
     height: 200px;
+    margin: 0px 10px 0px 5px;
 }
 .button4{
     text-align: center;
     width: 100%;
     background-color: red;
     height: 100px;
+    margin: 0px 10px;
 }
