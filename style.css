@@ -82,6 +82,7 @@ a{
     background-color: pink;
 }
 .button1{
+    border: solid 1px black;
     background-color: brown;
     text-align: center;
     width: 100%;
@@ -89,20 +90,23 @@ a{
     margin: 0px 10px;
 }
 .button2{
-    width: 48.9%;
+    border: solid 1px black;
+    width: 48.8%;
     background-color: brown;
     text-align: center;
     height: 200px;
     margin: 0px 5px 0px 10px;
 }
 .button3{
+    border: solid 1px black;
     text-align: center;
-    width: 48.9%;
+    width: 48.8%;
     background-color: red;
     height: 200px;
     margin: 0px 10px 0px 5px;
 }
 .button4{
+    border: solid 1px black;
     text-align: center;
     width: 100%;
     background-color: red;
