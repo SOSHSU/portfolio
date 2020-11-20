@@ -76,22 +76,22 @@ a{
 .button-container > h2{
     color: black;
     text-align: center;
-    margin: 0px auto 0px auto;
+    margin: 0.5% auto 0px auto;
     padding: 20px;
     background-color: pink;
 }
 .button1{
     border: solid 1px black;
-    background-color: brown;
+    background-color: orange;
     text-align: center;
     width: 100%;
     height: 100px;
-    margin: 0px 1% 0.5% 1%;
+    margin: 0.5% 1% 0.5% 1%;
 }
 .button2{
     border: solid 1px black;
     width: 48.5%;
-    background-color: brown;
+    background-color: orange;
     text-align: center;
     height: 200px;
     margin: 0px 0% 0px 1%;
@@ -100,7 +100,7 @@ a{
     border: solid 1px black;
     text-align: center;
     width: 48.5%;
-    background-color: red;
+    background-color: orange;
     height: 200px;
     margin: 0px 1% 0px 0%;
 }
@@ -108,7 +108,7 @@ a{
     border: solid 1px black;
     text-align: center;
     width: 100%;
-    background-color: red;
+    background-color: brown;
     height: 100px;
     margin: 0.5% 1% 0px 1%;
 }
