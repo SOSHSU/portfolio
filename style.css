@@ -152,7 +152,7 @@ a{
     background-color: lightskyblue;
     border-radius: 2rem;
     text-indent: 10vw;
-    margin: 8vh 8vw;
+    margin: 8vh auto 100vh auto;
     width: 42vw;
 }
 .background2{
@@ -165,26 +165,50 @@ a{
     /* background-position: 0 0px; */
     /* background-repeat: no-repeat; */
 }
-h4{
-    font-size: 2vw;
+.background3{
+    height: 30vh;
+    background-image: url("background3.jpg");
+    display:block;
+    Background-size: cover;
+    border-radius: 1rem;
+}
+.background4{
+    height: 30vh;
+    background-image: url("city-2045453_1920.jpg");
+    display:block;
+    Background-size: cover;
+    border-radius: 1rem;
+}
+.background5{
+    height: 30vh;
+    background-image: url("north-star-2869817_1920.jpg");
+    display:block;
+    Background-size: cover;
+    border-radius: 1rem;
+}
+.background6{
+    height: 30vh;
+    background-image: url("mountains-5796973_1920.jpg");
+    display:block;
+    Background-size: cover;
+    border-radius: 1rem;
 }
 .button-container > h4{
     border: 1px black solid;
     font-size: 7vw;
 }
-.button-container > div > p{
+.button-container > div > div > p{
     visibility: hidden;
     height: 5vh;
     z-index:2;
 }
 .button-container > div:hover{
-    transform: scaleY(2);
+    transform: scaleY(1.3);
     transition: 1s;
 }
-.button-container > div:hover > p{
+.button-container > div > div:hover > p{
     visibility: visible;
     height: 30vh;
-    z-index: 5;
 }
 /* .button2:hover:after{
     content: "hello.";
@@ -210,9 +234,72 @@ h4{
 }
 .bottomwarn{
     background-color: palegreen;
-    padding: 5.5vh 0% 5.5vh 28%;
+    padding: 5.5vh 20% 5.5vh 28%;
     font-size: 5vh;
     font-weight: bold;
+}
+.grid2{
+    display:grid;
+    grid-template-rows: 20vh 120vh;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: 
+    "space1 space1"
+    "space2 space3"
+    ;
+}
+.space1{
+    background-color: gray;
+    grid-area: space1;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+.space2{
+    background-color:  rgb(44, 43, 39);
+    grid-area: space2;
+}
+.space3{
+    background-color:white;
+    grid-area: space3;
+}
+.head{
+    background-color: white;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    margin-left: 3vw;
+    border: black 5px solid;
+    position: relative;
+}
+.background7{
+    /* padding: 10px 10px; */
+    /* border:red solid 1px; */
+    height: 120px;
+    width: 120px;
+    background-image: url("5C51E427-1715-44E6-9B14D9487D7B7F2D_source.jpg");
+    /* display:block; */
+    /* margin-left: 20%; */
+    /* margin-right: auto; */
+    background-position: center;
+    Background-size: cover;
+    border-radius: 50%;
+    
+}
+.name2{
+    color: white;
+    margin: 0px 0px 0px 30vw;
+    font-size: 10vh;
+    font-weight: bold;
+}
+.job{
+    font-size: 5vh;
+    width: 33vw;
+    text-align: end;
+    color: whitesmoke;
+}
+.education{
+    color: white;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
@@ -235,6 +322,8 @@ h4{
         font-size: 3rem;
     }
 }
+
+
 @media only screen and (max-width: 1100px) {
     .style{
         /* font-size: 10px; */
@@ -248,6 +337,9 @@ h4{
         background-position: 0 0px;
         background-repeat: no-repeat;
     }
+    .intro2{
+        font-size: 2vh;
+    }
     .name{
         color: orange;
         text-shadow: -1px 0 black, 0 1px black,
@@ -260,6 +352,9 @@ h4{
     }
     h4{
         font-size:20px;
+    }
+    .button-container > div > div >p{
+        font-size: 1.5vh;
     }
 }
 @media only screen and (max-width: 700px) {
@@ -287,5 +382,11 @@ h4{
     }
     h4{
         font-size:15px;
+    }
+    .intro2{
+        font-size: 1.5vh;
+    }
+    .button-container > div > div >p{
+        font-size: 1.25vh;
     }
 }
