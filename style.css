@@ -594,13 +594,14 @@ li{
     text-shadow: -1px 0 black, 0 1px black,
           1px 0 black, 0 -1px black;
 }
-.firstgametitle{
+.projecttitle{
     text-align: center;
     padding: 2vh 0vh;
+    font-size: 3vw;
 }
 .gamepic{
-    width: 800px;
-    height: 500px;
+    width: 60%;
+    height: 50%;
     display:block;
     margin: 30px auto;
 }
@@ -608,9 +609,9 @@ li{
     background-color: black;
     border: 2px solid white;
     padding: 10px 20px;
-    margin: 10px 30px;
-    text-indent: 60px;
-    font-size: 20px;
+    margin: 1vw 2vw;
+    text-indent: 10%;
+    font-size: 1.5vw;
     color: white;
 }
 @media only screen and (min-width: 1100px){
