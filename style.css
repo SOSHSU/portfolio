@@ -480,7 +480,9 @@ li{
 }
 .picture1{
     grid-area: picture1;
-    
+    background-color: black;
+    border: white 2px solid;
+    /* display: flex; */
     /* background-image: url("Screen Shot 2021-01-07 at 9.47.23 PM.png"); */
     
     /* Background-position: center; */
@@ -496,36 +498,101 @@ li{
     /* background-position: -31vw -15vw ; */
     background-position: center;
     background-repeat: no-repeat;
+    visibility: hidden;
 }
 .picture2{
-    background-color:  rgb(44, 43, 39);
+    background-color:  black;
+    border: white 2px solid;
     grid-area: picture2;
 }
 .img7{
-    height: 41vw;
+    height: 29.59vw;
+    margin: 0px 0% 0% 7%;
     /* display:block; */
     Background-size:cover;
     /* background-position: -31vw -15vw ; */
     background-position: center;
     background-repeat: no-repeat;
+    visibility: hidden;
 }
 .picture3{
     background-color:black;
+    border: white 2px solid;
     grid-area: picture3;
 }
 .img8{
-    height: 30vw;
+    height: 29vw;
     margin: auto 5%;
+    margin: auto 5%;
+    /* display:block; */
+    Background-size:cover;
+    /* background-position: -31vw -15vw ; */
+    background-position: center;
+    background-repeat: no-repeat;
+    visibility: hidden;
+}
+.picture4{
+    background-color:black;
+    grid-area: picture4;
+    border: white 2px solid;
+}
+.img9{
+    height: 29vw;
+    margin: 0px 0% 0px 2%;
     /* margin: auto ; */
     /* display:block; */
     Background-size:cover;
     /* background-position: -31vw -15vw ; */
     background-position: center;
     background-repeat: no-repeat;
+    visibility: hidden;
 }
-.picture4{
-    background-color:pink;
-    grid-area: picture4;
+.grid3 >a>div:hover >img{
+    /* transform: scale(1.5); */
+    transition: 0.5s;
+    visibility: visible;
+}
+.grid3 >div:hover > .gameName{
+    /* transform: scale(1.5); */
+    /* transition: 0.5s; */
+    /* color: white; */
+    visibility: hidden;
+}
+.gameName1{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top:10%;
+    left: 9%;
+    text-shadow: -1px 0 black, 0 1px black,
+          1px 0 black, 0 -1px black;
+}
+.gameName2{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top:10%;
+    left: 62%;
+    text-shadow: -1px 0 black, 0 1px black,
+          1px 0 black, 0 -1px black;
+}
+.gameName3{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top:70%;
+    left: 15%;
+    text-shadow: -1px 0 black, 0 1px black,
+          1px 0 black, 0 -1px black;
+}
+.gameName4{
+    font-size: 5vw;
+    color: white;
+    position: absolute;
+    top:70%;
+    left: 62%;
+    text-shadow: -1px 0 black, 0 1px black,
+          1px 0 black, 0 -1px black;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
