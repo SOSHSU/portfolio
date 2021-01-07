@@ -621,6 +621,22 @@ li{
     font-size: 1.5vw;
     color: white;
 }
+.contactimg{
+    height: 50vw;
+    background-image: url("contact1.jpg");
+    display:block;
+    Background-size: cover;
+    Background-position: center;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+}
+.contactletter{
+    padding: 20vh 0px;
+    text-align: center;
+    /* color: white; */
+    font-size: 7vw;
+    font-weight: bold;
+}
 @media only screen and (min-width: 1100px){
     /* .style{
         font-size: 20px;
@@ -642,8 +658,6 @@ li{
         font-size: 3rem;
     }
 }
-
-
 @media only screen and (max-width: 1100px) {
     .style{
         /* font-size: 10px; */
