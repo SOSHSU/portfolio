@@ -510,8 +510,18 @@ li{
     background-repeat: no-repeat;
 }
 .picture3{
-    background-color:blue;
+    background-color:black;
     grid-area: picture3;
+}
+.img8{
+    height: 30vw;
+    margin: auto 5%;
+    /* margin: auto ; */
+    /* display:block; */
+    Background-size:cover;
+    /* background-position: -31vw -15vw ; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .picture4{
     background-color:pink;
