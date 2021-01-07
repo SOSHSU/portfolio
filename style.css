@@ -479,21 +479,35 @@ li{
     ;
 }
 .picture1{
-    background-color: black;
     grid-area: picture1;
-    height: 500px;
-    background-image: url("me.jpg");
-    display:block;
-    Background-size: cover;
-    Background-position: center;
-    background-position: 0 0px;
-    background-repeat: no-repeat;
+    
+    /* background-image: url("Screen Shot 2021-01-07 at 9.47.23 PM.png"); */
+    
+    /* Background-position: center; */
+    /* background-position: -31vw -15vw ; */
+    /* background-repeat: no-repeat; */
     /* background-position: center; */
     
+}
+.img6{
+    height: 41vw;
+    /* display:block; */
+    Background-size:cover;
+    /* background-position: -31vw -15vw ; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .picture2{
     background-color:  rgb(44, 43, 39);
     grid-area: picture2;
+}
+.img7{
+    height: 41vw;
+    /* display:block; */
+    Background-size:cover;
+    /* background-position: -31vw -15vw ; */
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .picture3{
     background-color:blue;
