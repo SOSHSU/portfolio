@@ -605,7 +605,14 @@ li{
     display:block;
     margin: 30px auto;
 }
+.gamepic2{
+    width: 30%;
+    height: 40%;
+    display:block;
+    margin: 30px auto;
+}
 .content1{
+    border-radius: 3rem;
     background-color: black;
     border: 2px solid white;
     padding: 10px 20px;
