@@ -234,10 +234,11 @@ a{
 }
 .bottomwarn{
     background-color: palegreen;
-    padding: 5.5vh 20% 5.5vh 28%;
-    font-size: 5vh;
+    padding: 2.5vh 20% 2.5vh 28%;
+    font-size: 4vh;
     font-weight: bold;
 }
+/* CV Page starts here */
 .grid2{
     display:grid;
     grid-template-rows: 20vh 145.5vh;
@@ -434,16 +435,23 @@ li{
     /* border: 1px black solid; */
     padding:2vh 0px;
     align-items: center;
-    width: 50vw;
+    width: 66vw;
+    justify-content: space-between;
 }
 .function{
     /* border:1px black solid; */
     border-right: 1px black solid;
-    padding-right: 5vw;
     /* display: flex; */
     font-size: 2vw;
+    width:15vw;
     /* margin: 2vh 0px; */
     
+}
+.score{
+    /* text-align: end; */
+    width: 40vw;
+    /* border: 1px black solid; */
+    height: 3vh;
 }
 .square1{
     border-radius: 0.3rem;
@@ -459,6 +467,41 @@ li{
     border: 5px black solid;
     width: 3vh;
     height: 3vh;
+}
+/* projects page starts here */
+.grid3{
+    display:grid;
+    grid-template-rows: 30vw 30vw;
+    grid-template-columns: 50% 50%;
+    grid-template-areas: 
+    "picture1 picture2"
+    "picture3 picture4"
+    ;
+}
+.picture1{
+    background-color: black;
+    grid-area: picture1;
+    height: 500px;
+    background-image: url("me.jpg");
+    display:block;
+    Background-size: cover;
+    Background-position: center;
+    background-position: 0 0px;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    
+}
+.picture2{
+    background-color:  rgb(44, 43, 39);
+    grid-area: picture2;
+}
+.picture3{
+    background-color:blue;
+    grid-area: picture3;
+}
+.picture4{
+    background-color:pink;
+    grid-area: picture4;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
