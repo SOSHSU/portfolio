@@ -240,7 +240,7 @@ a{
 }
 .grid2{
     display:grid;
-    grid-template-rows: 20vh 120vh;
+    grid-template-rows: 20vh 144vh;
     grid-template-columns: 20% 80%;
     grid-template-areas: 
     "space1 space1"
@@ -248,7 +248,7 @@ a{
     ;
 }
 .space1{
-    background-color: gray;
+    background-color: black;
     grid-area: space1;
     display: flex;
     /* justify-content: center; */
@@ -288,18 +288,101 @@ a{
 }
 .name2{
     color: white;
-    margin: 0px 0px 0px 30vw;
+    margin: 0px auto 0px 28vw;
     font-size: 10vh;
     font-weight: bold;
+    width: 30vw;
+    /* border: black 1px solid; */
 }
 .job{
-    font-size: 5vh;
-    width: 33vw;
+    margin-top: 15vh;
+    font-size: 4.5vh;
+    /* width: 31vw; */
     text-align: end;
-    color: whitesmoke;
+    color: gray;
 }
-.education{
+.img2{
+    width: 8vw;
+    margin: 0px 1vw;
+    border-radius: 50%;
+}
+.bigtitle{
+    font-size: 3vh;
     color: white;
+    margin: 3vh 25% 0px 25%;
+    /* margin: 3vh auto 0px auto; */
+    text-decoration: underline;
+    display: flex;
+}
+.schools{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.schools > div{
+    margin: 1.5vh auto;
+}
+.cat1{
+    font-size: 3vh;
+    /* border: 1px solid black; */
+}
+.school2{
+    font-weight: bold;
+    font-size: 3vh;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.cat1 > div{
+    text-align: center;
+    font-size: 2vh;
+    margin: 1vh 0px;
+}
+.school1 
+{
+    font-weight: bold;
+    font-size: 3vh;
+    /* border: 1px solid black; */
+}
+.school2 > div{
+    text-align: center;
+    font-size: 2vh;
+}
+.address1{
+    font-size: 2vh;
+}
+.block1{
+    border: burlywood 5px solid;
+    padding: 1vw;
+}
+.language{
+    font-size: 2.5vh;
+    color: white;
+    /* text-decoration: white; */
+    margin: 3vh 30%;
+}
+li{
+    color: white;
+}
+.hobbie{
+    font-size: 2.5vh;
+    color: white;
+    text-decoration: white;
+    margin: 3vh 25%;
+}
+.img3{
+    height: 4vh;
+    margin: 0px 2vw;
+}
+.img4{
+    height: 4vh;
+    margin: 0px 2vw;
+    border-radius: 50%;
+}
+.img5{
+    height: 4vh;
+    margin: 0px 2vw;
+    border-radius: 50%;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
