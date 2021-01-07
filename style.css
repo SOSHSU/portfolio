@@ -240,7 +240,7 @@ a{
 }
 .grid2{
     display:grid;
-    grid-template-rows: 20vh 144vh;
+    grid-template-rows: 20vh 145.5vh;
     grid-template-columns: 20% 80%;
     grid-template-areas: 
     "space1 space1"
@@ -383,6 +383,82 @@ li{
     height: 4vh;
     margin: 0px 2vw;
     border-radius: 50%;
+}
+.title3{
+    font-size: 3vw;
+    margin: 5vh 65% 0vh 10%;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    width: 64vw;
+    border-bottom: 2px rgb(58, 58, 58) solid;
+}
+.profile{
+    font-size: 1.6vw;
+    text-indent: 15%;
+    padding-bottom: 1%;
+    border-bottom: 2px rgb(58, 58, 58) solid;
+    margin: 2vh 10%;
+}
+.title4{
+    font-size: 3vw;
+    margin: 5vh 65% 0vh 10%;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    width: 64vw;
+    /* border-bottom: 2px rgb(58, 58, 58) solid; */
+}
+.job2{
+    font-size: 2vw;
+    font-weight: bolder;
+    color: rgb(58, 58, 58);
+}
+.block2{
+    border-bottom: 2px rgb(58, 58, 58) solid;
+    margin: 5vh 65% 0vh 10%;
+    width: 64vw;
+}
+.company{
+    font-weight: bold;
+    color: rgb(58, 58, 58);
+}
+.experience{
+    margin: 1vw 0px;
+    font-size: 1.6vw;
+    text-indent: 15%;
+}
+.block3{
+    margin: 5vh 65% 0vh 10%;
+}
+.flex-container2{
+    display: flex;
+    /* border: 1px black solid; */
+    padding:2vh 0px;
+    align-items: center;
+    width: 50vw;
+}
+.function{
+    /* border:1px black solid; */
+    border-right: 1px black solid;
+    padding-right: 5vw;
+    /* display: flex; */
+    font-size: 2vw;
+    /* margin: 2vh 0px; */
+    
+}
+.square1{
+    border-radius: 0.3rem;
+    margin: 0vh 2vw;
+    border: 5px black solid;
+    width: 3vh;
+    height: 3vh;
+}
+.square2{
+    border-radius: 0.3rem;
+    margin: 0vh 2vw;
+    background-color: black;
+    border: 5px black solid;
+    width: 3vh;
+    height: 3vh;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
