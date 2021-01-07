@@ -241,7 +241,8 @@ a{
 /* CV Page starts here */
 .grid2{
     display:grid;
-    grid-template-rows: 20vh 145.5vh;
+    grid-template-rows: 20vh 144.5vh;
+    /* 11vw  75.6vw; */
     grid-template-columns: 20% 80%;
     grid-template-areas: 
     "space1 space1"
@@ -373,16 +374,16 @@ li{
 }
 .img3{
     height: 4vh;
-    margin: 0px 2vw;
+    margin: 0px 1.2vw;
 }
 .img4{
     height: 4vh;
-    margin: 0px 2vw;
+    margin: 0px 1.3vw;
     border-radius: 50%;
 }
 .img5{
     height: 4vh;
-    margin: 0px 2vw;
+    margin: 0px 0vw 0px 3vw;
     border-radius: 50%;
 }
 .title3{
@@ -623,6 +624,7 @@ li{
 }
 .contactimg{
     height: 50vw;
+    /* height: 800px; */
     background-image: url("contact1.jpg");
     display:block;
     Background-size: cover;
@@ -631,11 +633,78 @@ li{
     background-repeat: no-repeat;
 }
 .contactletter{
+    color: white;
     padding: 20vh 0px;
     text-align: center;
     /* color: white; */
     font-size: 7vw;
     font-weight: bold;
+}
+.set{
+    display:flex;
+    margin: 0px auto;
+    /* border: 1px black solid; */
+    /* flex-wrap: wrap; */
+    background-color: blanchedalmond;
+    border-radius: 1rem;
+    border: 1px solid rgb(250, 213, 158);
+    padding: 0.25% 0%
+}
+.a1{
+    /* background-color: white; */
+    /* grid-area: a1; */
+    /* border: black 1px solid;  */
+    width: 5vw; 
+    height: 6vh;
+    /* margin: auto auto;
+    background: #F4B30C;  */
+}
+.a2{
+    /* background-color: white; */
+    /* grid-area: a2; */
+    /* border: black 1px solid; */
+    width: 10vw;  
+    height: 6vh;
+    display:flex;
+    flex-wrap: wrap;
+}
+.word2{
+    font-weight: bold;
+    font-size: 2.5vh;
+}
+.word3{
+    color:black;
+}
+.title{
+    text-align: center;
+    border-radius: 5rem;
+    margin: 1vh auto;
+    width: 2.5vw;
+    background: #F4B30C;
+    height: 3vh;
+}
+.information{
+    margin-top: 32vh;
+    align-items: end;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin: 0px 10% 0px 70%; */
+}
+.phone{
+    width: 3vw;
+    margin-left: 1vw;
+}
+.gmail{
+    width: 3vw;
+    margin: 2% 0px 0px 1vw;
+}
+.fb{
+    width: 3vw;
+    margin: 2% 0px 0px 1vw;
+}
+.address{
+    width: 4vw;
+    margin: 0% 0px 0% 0.5vw;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
@@ -689,6 +758,13 @@ li{
     }
     .button-container > div > div >p{
         font-size: 1.5vh;
+    }
+    .block1 > div > p{
+        font-size: 1vw;
+        color: gray;
+    }
+    .bigtitle{
+        font-size: 2vw;
     }
 }
 @media only screen and (max-width: 700px) {
