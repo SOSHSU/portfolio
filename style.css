@@ -243,7 +243,8 @@ a{
 /* CV Page starts here */
 .grid2{
     display:grid;
-    grid-template-rows: 20vh 144.5vh;
+    grid-template-rows: 20vh 87.5%;
+    /* grid-template-rows: 20vh 144.5vh; */
     /* 11vw  75.6vw; */
     grid-template-columns: 20% 80%;
     grid-template-areas: 
@@ -261,6 +262,7 @@ a{
 }
 .space2{
     background-color:  rgb(44, 43, 39);
+    height: 100%;
     grid-area: space2;
 }
 .space3{
@@ -636,7 +638,7 @@ li{
 }
 .contactletter{
     color: white;
-    padding: 20vh 0px;
+    padding: 10vw 0px;
     text-align: center;
     /* color: white; */
     font-size: 7vw;
@@ -707,6 +709,10 @@ li{
 .address{
     width: 4vw;
     margin: 0% 0px 0% 0.5vw;
+}
+#gmail1{
+    display:flex;
+    flex-wrap: wrap;
 }
 @media only screen and (min-width: 1100px){
     /* .style{
@@ -805,6 +811,45 @@ li{
         flex-wrap: wrap;
         /* margin: 0px 10% 0px 70%; */
     }
+    .bottomwarn{
+        font-size: 3vw;
+        padding: 1vh 20% 1vh 28%;
+    }
+    .school1{
+        font-size: 2vw;
+    }
+    .school2{
+        font-size: 2vw;
+    }
+    .cat1{
+        font-size: 1.5vw;
+    }
+    .language{
+        font-size: 1.5vw;
+    }
+    .hobbie{
+        font-size: 1.5vw;
+    }
+    .address1{
+        font-size: 2vw;
+    }
+    #graduate1{
+        font-size: 2vw;
+    }
+    #graduate2{
+        font-size: 2vw;
+    }
+    #graduate2{
+        font-size: 2vw;
+    }
+    .word2{
+        /* font-size: 1vw; */
+        font-size: 10%;
+    }
+    .word3{
+        /* font-size: 1vw; */
+        font-size: 10%;
+    }
 }
 @media only screen and (max-width: 700px) {
     .style{
@@ -855,5 +900,16 @@ li{
         left: 62%;
         text-shadow: -1px 0 black, 0 1px black,
               1px 0 black, 0 -1px black;
+    }
+    .bottomwarn{
+        font-size: 2.5vw;
+    }
+    .word2{
+        /* font-size: 1vw; */
+        font-size: 1%;
+    }
+    .word3{
+        /* font-size: 1vw; */
+        font-size: 1%;
     }
 }
